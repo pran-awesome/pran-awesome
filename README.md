@@ -25,7 +25,7 @@
   <tr>
     <td><img src="https://media.giphy.com/media/13CoXDiaCcGyCg/giphy.gif" width="120" alt="spongebob dance" /></td>
     <td>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+friend!+%F0%9F%8C%9F;welcome+to+my+silly+corner+%F0%9F%92%9B;grab+a+link+below!+%E2%9C%A8" alt="typing intro" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+world!+%F0%9F%8C%9F;welcome+to+my+silly+corner+%F0%9F%92%9B;grab+a+link+below!+%E2%9C%A8" alt="typing intro" />
     </td>
     <td><img src="https://media.giphy.com/media/VGB4nYmCeKGnm/giphy.gif" width="120" alt="waving hello" /></td>
   </tr>
