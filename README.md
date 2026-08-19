@@ -23,11 +23,11 @@
 
 <table>
   <tr>
-    <td><img src="https://media.giphy.com/media/13CoXDiaCcGyCg/giphy.gif" width="120" alt="spongebob dance" /></td>
+    <td>🌟</td>
     <td>
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+world!+%F0%9F%8C%9F;welcome+to+my+silly+corner+%F0%9F%92%9B;grab+a+link+below!+%E2%9C%A8" alt="typing intro" />
     </td>
-    <td><img src="https://media.giphy.com/media/VGB4nYmCeKGnm/giphy.gif" width="120" alt="waving hello" /></td>
+    <td>👋</td>
   </tr>
 </table>
 
@@ -45,9 +45,7 @@
 
 <br /><br />
 
-<img src="https://media.giphy.com/media/26BRvTxExzuF8f9Ak/giphy.gif" width="80" alt="sparkle" />
-<img src="https://media.giphy.com/media/3o7aCTPPm4OHfRLSH6/giphy.gif" width="200" alt="rainbow" />
-<img src="https://media.giphy.com/media/26BRvTxExzuF8f9Ak/giphy.gif" width="80" alt="sparkle" />
+✨ 🌈 ✨
 
 <br /><br />
 
@@ -71,10 +69,7 @@
 
 <br />
 
-<img src="https://media.giphy.com/media/5VKKYC8saydA6/giphy.gif" width="70" alt="pikachu" />
-&nbsp;&nbsp;🌟 💛 🌟 💛 🌟 💛 🌟 💛 🌟 💛 🌟
-&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/11sJ8361eiWU12/giphy.gif" width="70" alt="excited" />
+🌟 💛 🌟 💛 🌟 💛 🌟 💛 🌟 💛 🌟
 
 <br /><br />
 
@@ -116,12 +111,12 @@
 
 <table>
   <tr>
-    <td><img src="https://media.giphy.com/media/UMon0fuimoAN9ueBRF/giphy.gif" width="100" alt="dancing" /></td>
+    <td>🎉</td>
     <td align="center">
       <b>🎪 currently in my colorful era 🎪</b><br />
       <sub>☀️ sunny vibes · loud laughs · zero boring energy ☀️</sub>
     </td>
-    <td><img src="https://media.giphy.com/media/ICOgU9l65y564/giphy.gif" width="100" alt="cartoon dance" /></td>
+    <td>🎪</td>
   </tr>
 </table>
 
@@ -166,11 +161,11 @@
 
 <table>
   <tr>
-    <td><img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="90" alt="stars" /></td>
-    <td><img src="https://media.giphy.com/media/3ohzdIva3Z0r2zIU08/giphy.gif" width="90" alt="happy cartoon" /></td>
-    <td><img src="https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif" width="90" alt="party" /></td>
-    <td><img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="90" alt="sparkles" /></td>
-    <td><img src="https://media.giphy.com/media/3o6Zt4HUhq7qF8KLyw/giphy.gif" width="90" alt="cool" /></td>
+    <td>⭐</td>
+    <td>🌈</td>
+    <td>🎉</td>
+    <td>✨</td>
+    <td>😎</td>
   </tr>
 </table>
 
@@ -184,10 +179,6 @@
 
 <br />
 
-<img src="https://media.giphy.com/media/7pF0eiz9BNCA8/giphy.gif" width="60" alt="mic drop" />
-&nbsp;
 <sub>🍋 made with extra lemon energy · swap <code>YOUR_*</code> placeholders with your real links!</sub>
-&nbsp;
-<img src="https://media.giphy.com/media/7pF0eiz9BNCA8/giphy.gif" width="60" alt="mic drop" />
 
 </div>
