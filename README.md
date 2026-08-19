@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════
-     🌻  SELFIE — drop your photo here later!
+     SELFIE — drop your photo here later!
      Example:
      <img src="https://your-image-url.png" width="220" alt="my selfie" />
      ═══════════════════════════════════════════════════════════════ -->
 
 <!-- ═══════════════════════════════════════════════════════════════
-     ✏️  ABOUT ME — write your intro here later!
+     ABOUT ME — write your intro here later!
      Example:
-     <h3>hey hey! i'm pran 👋</h3>
+     <h3>hey hey! i'm pran</h3>
      <p>your fun description goes here...</p>
      ═══════════════════════════════════════════════════════════════ -->
 
@@ -17,17 +17,17 @@
 
 <br />
 
-🍋 🌻 ✨ 🦋 🌈 ⭐ 🎀 🍋 🌻 ✨ 🦋 🌈 ⭐ 🎀 🍋 🌻 ✨ 🦋 🌈 ⭐ 🎀
+COLOR POP MODE
 
 <br /><br />
 
 <table>
   <tr>
-    <td>🌟</td>
+    <td></td>
     <td>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+world!+%F0%9F%8C%9F;welcome+to+my+silly+corner+%F0%9F%92%9B;grab+a+link+below!+%E2%9C%A8" alt="typing intro" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+world!;welcome+to+my+colorful+corner;grab+a+link+below" alt="typing intro" />
     </td>
-    <td>👋</td>
+    <td></td>
   </tr>
 </table>
 
@@ -37,19 +37,19 @@
 
 <br /><br />
 
-<img src="https://img.shields.io/badge/🎨-childish+%26+proud-FFD700?style=for-the-badge&labelColor=FF6B9D" alt="vibe badge" />
-<img src="https://img.shields.io/badge/🌻-yellow+era-FFC107?style=for-the-badge&labelColor=FF9800" alt="yellow badge" />
-<img src="https://img.shields.io/badge/✨-vibes+only-FFF176?style=for-the-badge&labelColor=FFB300" alt="vibes badge" />
-<img src="https://img.shields.io/badge/🍋-extra+lemon-FFEB3B?style=for-the-badge&labelColor=FDD835" alt="lemon badge" />
-<img src="https://img.shields.io/badge/🦋-main+character-FF80AB?style=for-the-badge&labelColor=EA80FC" alt="main character badge" />
+<img src="https://img.shields.io/badge/STYLE-childish+%26+proud-FFD700?style=for-the-badge&labelColor=FF6B9D" alt="vibe badge" />
+<img src="https://img.shields.io/badge/COLOR-yellow+era-FFC107?style=for-the-badge&labelColor=FF9800" alt="yellow badge" />
+<img src="https://img.shields.io/badge/MOOD-vibes+only-FFF176?style=for-the-badge&labelColor=FFB300" alt="vibes badge" />
+<img src="https://img.shields.io/badge/THEME-extra+lemon-FFEB3B?style=for-the-badge&labelColor=FDD835" alt="lemon badge" />
+<img src="https://img.shields.io/badge/VIBE-main+character-FF80AB?style=for-the-badge&labelColor=EA80FC" alt="main character badge" />
 
 <br /><br />
 
-✨ 🌈 ✨
+COLOR LINE
 
 <br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=55&section=header&text=%F0%9F%A7%B8%20tap+a+button%2C+say+hi!%20%F0%9F%A7%B8&color=gradient&customColorList=24,27,28&fontSize=28&fontColor=fff" alt="social section" />
+<img src="https://capsule-render.vercel.app/api?type=soft&height=55&section=header&text=tap+a+button+say+hi&color=gradient&customColorList=24,27,28&fontSize=28&fontColor=fff" alt="social section" />
 
 <br /><br />
 
@@ -69,7 +69,7 @@
 
 <br />
 
-🌟 💛 🌟 💛 🌟 💛 🌟 💛 🌟 💛 🌟
+--------------------
 
 <br /><br />
 
@@ -111,12 +111,12 @@
 
 <table>
   <tr>
-    <td>🎉</td>
+    <td></td>
     <td align="center">
-      <b>🎪 currently in my colorful era 🎪</b><br />
-      <sub>☀️ sunny vibes · loud laughs · zero boring energy ☀️</sub>
+      <b>currently in my colorful era</b><br />
+      <sub>sunny vibes · loud laughs · zero boring energy</sub>
     </td>
-    <td>🎪</td>
+    <td></td>
   </tr>
 </table>
 
@@ -138,7 +138,7 @@
 
 <br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=40&section=footer&text=%F0%9F%8D%8A+%F0%9F%8D%8A+%F0%9F%8D%8A&color=gradient&customColorList=30,24,27&fontSize=22&fontAlign=50" alt="citrus divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=40&section=footer&text=color+bar&color=gradient&customColorList=30,24,27&fontSize=22&fontAlign=50" alt="citrus divider" />
 
 <br /><br />
 
@@ -161,24 +161,24 @@
 
 <table>
   <tr>
-    <td>⭐</td>
-    <td>🌈</td>
-    <td>🎉</td>
-    <td>✨</td>
-    <td>😎</td>
+    <td></td>
+    <td></td>
+    <td>color</td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
 <br />
 
-🎈 🎨 🍭 🌼 🎈 🎨 🍭 🌼 🎈 🎨 🍭 🌼 🎈 🎨 🍭 🌼
+COLORFUL AND SIMPLE
 
 <br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=27,28,29,30,24&height=130&section=footer&text=see+ya!+%F0%9F%91%8B&fontSize=30&fontColor=fff&animation=twinkling" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=27,28,29,30,24&height=130&section=footer&text=see+ya&fontSize=30&fontColor=fff&animation=twinkling" alt="footer" />
 
 <br />
 
-<sub>🍋 made with extra lemon energy · swap <code>YOUR_*</code> placeholders with your real links!</sub>
+<sub>made with extra color energy · swap <code>YOUR_*</code> placeholders with your real links</sub>
 
 </div>
