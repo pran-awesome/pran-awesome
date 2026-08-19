@@ -21,15 +21,7 @@ COLOR POP MODE
 
 <br /><br />
 
-<table>
-  <tr>
-    <td></td>
-    <td>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+world!;welcome+to+my+colorful+corner;grab+a+link+below" alt="typing intro" />
-    </td>
-    <td></td>
-  </tr>
-</table>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=FFD700&center=true&vCenter=true&width=420&lines=hello+world!;welcome+to+my+colorful+corner;grab+a+link+below" alt="typing intro" />
 
 <br />
 
@@ -45,7 +37,7 @@ COLOR POP MODE
 
 <br /><br />
 
-COLOR LINE
+COLOR LINE ✨
 
 <br /><br />
 
@@ -109,16 +101,8 @@ COLOR LINE
 
 <br />
 
-<table>
-  <tr>
-    <td></td>
-    <td align="center">
-      <b>currently in my colorful era</b><br />
-      <sub>sunny vibes · loud laughs · zero boring energy</sub>
-    </td>
-    <td></td>
-  </tr>
-</table>
+<b>currently in my colorful era 🌈</b><br />
+<sub>sunny vibes · loud laughs · zero boring energy</sub>
 
 <br />
 
@@ -159,19 +143,11 @@ COLOR LINE
 
 <br /><br />
 
-<table>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>color</td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+color splash 💛
 
 <br />
 
-COLORFUL AND SIMPLE
+COLORFUL AND SIMPLE 🎨
 
 <br /><br />
 
