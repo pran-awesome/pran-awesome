@@ -21,11 +21,9 @@
 🍭 🎈 ☀️ 💛 🍭 🎈 ☀️ 💛
 <br /><br />
 
-<img src="https://media.giphy.com/media/13CoXDiaCcGyCg/giphy.gif" width="88" alt="spongebob dance" />
-<br />
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=800&color=FFD700&center=true&vCenter=true&width=360&lines=hello+world!+%F0%9F%8C%9F;welcome+to+my+silly+corner+%F0%9F%92%9B;grab+a+link+below!+%E2%9C%A8" alt="typing intro" />
 <br />
-<img src="https://media.giphy.com/media/VGB4nYmCeKGnm/giphy.gif" width="88" alt="waving hello" />
+🌈 ✨ 💛 ✨ 🌈
 
 <br /><br />
 
@@ -43,9 +41,7 @@
 
 <br /><br />
 
-<img src="https://media.giphy.com/media/26BRvTxExzuF8f9Ak/giphy.gif" width="52" alt="sparkle" />
-<img src="https://media.giphy.com/media/3o7aCTPPm4OHfRLSH6/giphy.gif" width="140" alt="rainbow" />
-<img src="https://media.giphy.com/media/26BRvTxExzuF8f9Ak/giphy.gif" width="52" alt="sparkle" />
+✨ 🌈 ✨
 
 <br /><br />
 
@@ -69,9 +65,7 @@
 
 <br /><br />
 
-<img src="https://media.giphy.com/media/5VKKYC8saydA6/giphy.gif" width="58" alt="pikachu" />
-🌟 💛 🌟 💛 🌟 💛
-<img src="https://media.giphy.com/media/11sJ8361eiWU12/giphy.gif" width="58" alt="excited" />
+🌟 💛 🌟 💛 🌟 💛 🌟
 
 <br /><br />
 
@@ -111,13 +105,9 @@
 
 <br /><br />
 
-<img src="https://media.giphy.com/media/UMon0fuimoAN9ueBRF/giphy.gif" width="82" alt="dancing" />
-<br />
 <b>🎪 currently in my colorful era 🎪</b>
 <br />
 <sub>☀️ sunny vibes · loud laughs · zero boring energy ☀️</sub>
-<br />
-<img src="https://media.giphy.com/media/ICOgU9l65y564/giphy.gif" width="82" alt="cartoon dance" />
 
 <br /><br />
 
@@ -158,12 +148,7 @@
 
 <br /><br />
 
-<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="62" alt="stars" />
-<img src="https://media.giphy.com/media/3ohzdIva3Z0r2zIU08/giphy.gif" width="62" alt="happy cartoon" />
-<img src="https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif" width="62" alt="party" />
-<br />
-<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="62" alt="sparkles" />
-<img src="https://media.giphy.com/media/3o6Zt4HUhq7qF8KLyw/giphy.gif" width="62" alt="cool" />
+⭐ 🌈 ✨ 🎉 ✨ 🌈 ⭐
 
 <br /><br />
 
@@ -175,10 +160,6 @@
 
 <br />
 
-<img src="https://media.giphy.com/media/7pF0eiz9BNCA8/giphy.gif" width="52" alt="mic drop" />
-<br />
 <sub>🍋 made with extra lemon energy · swap <code>YOUR_*</code> placeholders with your real links!</sub>
-<br />
-<img src="https://media.giphy.com/media/7pF0eiz9BNCA8/giphy.gif" width="52" alt="mic drop" />
 
 </div>
