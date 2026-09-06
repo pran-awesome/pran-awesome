@@ -1,0 +1,175 @@
+/* ── Geometric accents & line strokes — wafer signature ── */
+
+.w-geo {
+  position: absolute;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.w-geo--circle {
+  width: var(--geo-size, 72px);
+  height: var(--geo-size, 72px);
+  border-radius: 50%;
+  background: var(--geo-fill, var(--wafer-yellow-soft));
+}
+
+.w-geo--ring {
+  width: var(--geo-size, 88px);
+  height: var(--geo-size, 88px);
+  border-radius: 50%;
+  border: 2px solid var(--geo-stroke, var(--wafer-blue));
+  background: transparent;
+}
+
+.w-geo--capsule {
+  width: var(--geo-w, 110px);
+  height: var(--geo-h, 36px);
+  border-radius: 999px;
+  background: var(--geo-fill, var(--wafer-green-soft));
+}
+
+.w-geo--squircle {
+  width: var(--geo-size, 64px);
+  height: var(--geo-size, 64px);
+  border-radius: var(--radius-m);
+  background: var(--geo-fill, var(--wafer-red-soft));
+  transform: rotate(var(--geo-rot, 12deg));
+}
+
+.w-geo--triangle {
+  width: 0;
+  height: 0;
+  border-left: calc(var(--geo-size, 56px) / 2) solid transparent;
+  border-right: calc(var(--geo-size, 56px) / 2) solid transparent;
+  border-bottom: var(--geo-size, 56px) solid var(--geo-fill, var(--wafer-blue-soft));
+  border-radius: 0;
+  filter: blur(0);
+  opacity: 0.95;
+}
+
+.w-geo--soft-tri {
+  width: var(--geo-size, 58px);
+  height: var(--geo-size, 58px);
+  background: var(--geo-fill, var(--wafer-yellow));
+  clip-path: polygon(50% 8%, 92% 86%, 8% 86%);
+  border-radius: 8px;
+  opacity: 0.85;
+}
+
+.w-geo--dot {
+  width: var(--geo-size, 12px);
+  height: var(--geo-size, 12px);
+  border-radius: 50%;
+  background: var(--geo-fill, var(--wafer-red));
+}
+
+.w-geo--fill-yellow { --geo-fill: var(--wafer-yellow-soft); --geo-stroke: var(--wafer-yellow); }
+.w-geo--fill-red { --geo-fill: var(--wafer-red-soft); --geo-stroke: var(--wafer-red); }
+.w-geo--fill-green { --geo-fill: var(--wafer-green-soft); --geo-stroke: var(--wafer-green); }
+.w-geo--fill-blue { --geo-fill: var(--wafer-blue-soft); --geo-stroke: var(--wafer-blue); }
+.w-geo--solid-yellow { --geo-fill: var(--wafer-yellow); }
+.w-geo--solid-red { --geo-fill: var(--wafer-red); }
+.w-geo--solid-green { --geo-fill: var(--wafer-green); }
+.w-geo--solid-blue { --geo-fill: var(--wafer-blue); }
+
+/* Line strokes */
+.w-stroke {
+  position: absolute;
+  pointer-events: none;
+  color: var(--stroke-color, var(--wafer-ink-faint));
+  opacity: 0.55;
+}
+
+.w-stroke svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.w-stroke--arc {
+  width: var(--stroke-w, 160px);
+  height: var(--stroke-h, 80px);
+}
+
+.w-stroke--wave {
+  width: var(--stroke-w, 220px);
+  height: var(--stroke-h, 48px);
+}
+
+.w-stroke--line {
+  width: var(--stroke-w, 120px);
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  opacity: 0.35;
+}
+
+.w-stroke--yellow { color: var(--wafer-yellow-deep); }
+.w-stroke--red { color: var(--wafer-red-deep); }
+.w-stroke--green { color: var(--wafer-green-deep); }
+.w-stroke--blue { color: var(--wafer-blue-deep); }
+
+/* Orbit group — organized cluster of geos */
+.w-orbit {
+  position: absolute;
+  width: var(--orbit-size, 220px);
+  height: var(--orbit-size, 220px);
+  pointer-events: none;
+}
+
+.w-orbit .w-geo {
+  position: absolute;
+}
+
+/* Signature ribbon — 4-tone tasteful strip */
+.w-ribbon {
+  display: flex;
+  height: 6px;
+  width: min(180px, 40%);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.w-ribbon span {
+  flex: 1;
+}
+
+.w-ribbon span:nth-child(1) { background: var(--wafer-yellow); }
+.w-ribbon span:nth-child(2) { background: var(--wafer-red); }
+.w-ribbon span:nth-child(3) { background: var(--wafer-green); }
+.w-ribbon span:nth-child(4) { background: var(--wafer-blue); }
+
+.w-ribbon--lg {
+  height: 10px;
+  width: min(260px, 55%);
+}
+
+/* Float motion — quiet gimmick */
+.w-float {
+  animation: wafer-float var(--float-dur) var(--ease-soft) infinite alternate;
+}
+
+.w-float-delay {
+  animation-delay: 1.2s;
+}
+
+.w-float-slow {
+  animation-duration: 7.5s;
+}
+
+@keyframes wafer-float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .w-float,
+  .w-float-delay,
+  .w-float-slow {
+    animation: none;
+  }
+}

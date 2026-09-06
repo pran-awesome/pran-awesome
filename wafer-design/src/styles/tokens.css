@@ -1,0 +1,156 @@
+/**
+ * wafer's design — Design Tokens
+ * Reference: ilovewafer.com
+ * Vivid Y/R/G/B · cream paper · hard wafer shadows · soft modern
+ */
+
+:root {
+  /* ── Core palette (vivid & playful, tasteful — not neon) ── */
+  --wafer-yellow: #fac84d;
+  --wafer-yellow-soft: #ffe6a3;
+  --wafer-yellow-deep: #e0a820;
+
+  --wafer-red: #e6644f;
+  --wafer-red-soft: #ffc4b8;
+  --wafer-red-deep: #d14b38;
+
+  --wafer-green: #5ecf7a;
+  --wafer-green-soft: #c6efd0;
+  --wafer-green-deep: #3aaa58;
+  --wafer-sage: #8db580;
+
+  --wafer-blue: #4b9fff;
+  --wafer-blue-soft: #b9dbff;
+  --wafer-blue-deep: #2f7fe0;
+
+  /* ── Neutrals (cream paper + charcoal stage from ilovewafer) ── */
+  --wafer-ink: #2a3340;
+  --wafer-ink-soft: #5c6778;
+  --wafer-ink-faint: #8b94a3;
+  --wafer-paper: #fdfcf0;
+  --wafer-paper-2: #f5f2e6;
+  --wafer-cream: #fdfcf0;
+  --wafer-stage: #2d3e50;
+  --wafer-stage-2: #243446;
+  --wafer-mist: rgba(42, 51, 64, 0.04);
+  --wafer-line: rgba(42, 51, 64, 0.12);
+  --wafer-line-strong: rgba(42, 51, 64, 0.18);
+  --wafer-white: #fffcf8;
+
+  /* ── Semantic ── */
+  --wafer-focus: var(--wafer-blue);
+  --wafer-success: var(--wafer-green);
+  --wafer-warn: var(--wafer-yellow-deep);
+  --wafer-danger: var(--wafer-red-deep);
+
+  /* ── Atmosphere washes ── */
+  --wafer-wash: linear-gradient(
+    155deg,
+    #fff4cc 0%,
+    #ffe6e0 28%,
+    #e7f7ec 55%,
+    #e3f0ff 78%,
+    #fdfcf0 100%
+  );
+  --wafer-wash-hero: radial-gradient(
+      900px 520px at 12% 18%,
+      rgba(250, 200, 77, 0.45),
+      transparent 60%
+    ),
+    radial-gradient(
+      700px 480px at 88% 12%,
+      rgba(75, 159, 255, 0.32),
+      transparent 55%
+    ),
+    radial-gradient(
+      640px 420px at 70% 88%,
+      rgba(94, 207, 122, 0.26),
+      transparent 55%
+    ),
+    radial-gradient(
+      520px 360px at 18% 85%,
+      rgba(230, 100, 79, 0.24),
+      transparent 50%
+    ),
+    var(--wafer-paper);
+  --wafer-wash-stage: radial-gradient(
+      800px 480px at 15% 20%,
+      rgba(250, 200, 77, 0.16),
+      transparent 55%
+    ),
+    radial-gradient(
+      640px 420px at 85% 15%,
+      rgba(230, 100, 79, 0.14),
+      transparent 50%
+    ),
+    radial-gradient(
+      560px 400px at 70% 85%,
+      rgba(141, 181, 128, 0.12),
+      transparent 55%
+    ),
+    var(--wafer-stage);
+
+  /* ── Typography ── */
+  --font-display: "Nunito", "Segoe UI Rounded", sans-serif;
+  --font-body: "Nunito", "Segoe UI Rounded", sans-serif;
+  --font-serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.35rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.35rem;
+  --text-4xl: clamp(2.5rem, 5vw, 3.75rem);
+  --text-5xl: clamp(3rem, 7vw, 5rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.3;
+  --leading-body: 1.65;
+
+  --tracking-tight: -0.02em;
+  --tracking-display: -0.03em;
+  --tracking-label: 0.08em;
+
+  /* ── Space (generous like ilovewafer) ── */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6rem;
+
+  /* ── Radius (softer / larger — wafer squircle) ── */
+  --radius-s: 14px;
+  --radius-m: 20px;
+  --radius-l: 28px;
+  --radius-xl: 36px;
+
+  /* ── Elevation ── */
+  --shadow-soft: 0 10px 30px rgba(42, 51, 64, 0.06);
+  --shadow-hover: 0 14px 34px rgba(42, 51, 64, 0.09);
+
+  /* ── Signature: hard colored wafer shadows (zero blur) ── */
+  --shadow-wafer-y: 6px 6px 0 var(--wafer-yellow);
+  --shadow-wafer-r: 6px 6px 0 var(--wafer-red);
+  --shadow-wafer-g: 6px 6px 0 var(--wafer-green);
+  --shadow-wafer-b: 6px 6px 0 var(--wafer-blue);
+  --shadow-wafer-ink: 5px 5px 0 rgba(42, 51, 64, 0.18);
+  --shadow-wafer-lg-y: 10px 10px 0 var(--wafer-yellow);
+  --shadow-wafer-lg-r: 10px 10px 0 var(--wafer-red);
+
+  /* ── Motion ── */
+  --ease-soft: cubic-bezier(0.33, 1, 0.68, 1);
+  --dur-fast: 160ms;
+  --dur-med: 280ms;
+  --float-dur: 5.5s;
+
+  /* ── Layout ── */
+  --content: 1120px;
+  --content-narrow: 720px;
+  --content-bio: 820px;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wafer's design — App shell template</title>
+    <link rel="stylesheet" href="/src/styles/wafer.css" />
+  </head>
+  <body>
+    <div class="w-app">
+      <header class="w-app__top">
+        <div class="w-shell w-nav" style="padding-block: 1rem">
+          <div class="w-brand-mark w-brand">
+            <span class="w-brand-dot" aria-hidden="true"></span>
+            wafer app
+          </div>
+          <button class="w-btn w-btn--soft" type="button" style="min-height: 2.4rem; padding: 0.5rem 0.95rem">
+            new
+          </button>
+        </div>
+      </header>
+
+      <main class="w-app__main">
+        <div class="w-stack-lg">
+          <div class="w-stack" style="max-width: 28ch">
+            <p class="w-label">today</p>
+            <h1 class="w-title">สวัสดี สีสันสดใส</h1>
+            <p class="w-body-sm">โครงแบบ Apple + accent wafer ที่ empty state และจุดโฟกัส</p>
+          </div>
+
+          <section class="w-surface" style="position: relative; overflow: hidden">
+            <span class="w-geo w-geo--circle w-geo--fill-yellow w-float" style="top: -20px; right: -10px; --geo-size: 84px"></span>
+            <span class="w-geo w-geo--ring w-geo--fill-blue w-float-slow" style="bottom: -24px; right: 40px; --geo-size: 96px"></span>
+            <div class="w-stack" style="position: relative; z-index: 1">
+              <h2 class="w-title-sm">ยังไม่มีโปรเจกต์</h2>
+              <p class="w-body-sm">เริ่มชิ้นแรกด้วยโทน color pop — มีกิมมิคนิด ๆ พอมีชีวิต</p>
+              <div class="w-btn-row">
+                <button class="w-btn w-btn--yellow" type="button">สร้างโปรเจกต์</button>
+                <button class="w-btn w-btn--ghost" type="button">ดูตัวอย่าง</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="w-feature-list w-feature-list--3">
+            <article class="w-feature">
+              <div class="w-feature__icon w-feature__icon--y">A</div>
+              <h3 class="w-title-sm" style="font-size: 1.15rem">Drafts</h3>
+              <p class="w-body-sm">งานระหว่างทาง</p>
+            </article>
+            <article class="w-feature">
+              <div class="w-feature__icon w-feature__icon--g">B</div>
+              <h3 class="w-title-sm" style="font-size: 1.15rem">Shipped</h3>
+              <p class="w-body-sm">ชิ้นที่ปล่อยแล้ว</p>
+            </article>
+            <article class="w-feature">
+              <div class="w-feature__icon w-feature__icon--r">C</div>
+              <h3 class="w-title-sm" style="font-size: 1.15rem">Mood</h3>
+              <p class="w-body-sm">พาเลตประจำวัน</p>
+            </article>
+          </section>
+        </div>
+      </main>
+
+      <footer class="w-app__bottom">
+        <nav class="w-tabbar" aria-label="App tabs">
+          <a class="w-tab is-active" href="#">
+            <div class="w-tab__dot"></div>
+            home
+          </a>
+          <a class="w-tab" href="#">
+            <div class="w-tab__dot" style="background: var(--wafer-green)"></div>
+            work
+          </a>
+          <a class="w-tab" href="#">
+            <div class="w-tab__dot" style="background: var(--wafer-red)"></div>
+            mood
+          </a>
+          <a class="w-tab" href="/">
+            <div class="w-tab__dot" style="background: var(--wafer-blue)"></div>
+            guide
+          </a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
