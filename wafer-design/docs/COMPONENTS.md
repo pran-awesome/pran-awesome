@@ -75,6 +75,12 @@ Import once: `src/styles/wafer.css`
 | `.w-surface` | Interactive surface only |
 | `.w-feature` / `.w-feature-list` | Ordered feature blocks |
 | `.w-swatch` / `.w-swatches` | Palette docs |
+| `.w-slab` + `--red/--green/--blue/--ink/--lg` | Cream wafer card with hard color shadow |
+| `.w-rail` | Section label + line + index |
+| `.w-pill-link` | Bio / social pill link |
+| `.w-badge` / `.w-status` | Edge pills + live status |
+| `.w-meta-grid` / `.w-meta` | Bio fact grid |
+| `.w-blob` | Soft floating organic accent |
 
 ---
 
@@ -86,12 +92,16 @@ Import once: `src/styles/wafer.css`
 | `.w-portfolio-grid` / `.w-work-visual` | Portfolio layouts |
 | `.w-social-canvas` | 1:1 social frame |
 | `.w-app` / `.w-tabbar` / `.w-tab` | Soft app shell |
+| `.w-stage` | Dark charcoal link-bio stage |
+| `.w-link-grid` / `.w-profile-head` / `.w-avatar` | Link-bio building blocks |
 
 ---
 
 ## Usage note
 
 - Default: no marketing cards
+- Prefer `.w-slab` over soft blur cards for signature moments
 - Surfaces/cards only when wrapping interaction
 - Keep 3–5 decorative accents in the first viewport
 - Prefer medium density: decorated, ordered, breathable
+- See `docs/REFERENCE.md` for ilovewafer.com borrow/don't-copy guidance
