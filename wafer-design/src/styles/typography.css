@@ -75,7 +75,7 @@
     var(--wafer-green),
     var(--wafer-blue)
   );
-  box-shadow: 0 0 0 3px rgba(226, 200, 106, 0.25);
+  box-shadow: 0 0 0 3px rgba(255, 210, 58, 0.35);
 }
 
 .w-lede {

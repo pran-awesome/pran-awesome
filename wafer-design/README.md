@@ -2,7 +2,7 @@
 
 Personal production design system — **future kid · soft luxury · playful order**
 
-เด็กจากโลกอนาคต × เทสต์แพง × สดใสแบบตุ่น ๆ
+เด็กจากโลกอนาคต × เทสต์แพง × สีสันสดใส
 
 ## Quick start
 
@@ -28,7 +28,7 @@ npm run dev
 
 ## Signature rules (short)
 
-1. Palette = muted-bright yellow / red / green / blue
+1. Palette = fresh vivid yellow / red / green / blue
 2. Type = soft rounded modern (Nunito)
 3. Radius = medium
 4. Decor = multiple geos + strokes, ordered, not sparse, not cluttered

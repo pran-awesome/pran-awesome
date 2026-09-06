@@ -1,25 +1,25 @@
 /**
  * wafer's design — Design Tokens
- * Muted-bright Y/R/G/B · soft modern · medium radius
+ * Fresh vivid Y/R/G/B · soft modern · medium radius
  */
 
 :root {
-  /* ── Core palette (muted + slightly washed = tasteful, not dull) ── */
-  --wafer-yellow: #e2c86a;
-  --wafer-yellow-soft: #f3e6b5;
-  --wafer-yellow-deep: #c4a84a;
+  /* ── Core palette (fresh & colorful, still tasteful — not neon) ── */
+  --wafer-yellow: #ffd23a;
+  --wafer-yellow-soft: #ffe99a;
+  --wafer-yellow-deep: #f0b400;
 
-  --wafer-red: #d4888a;
-  --wafer-red-soft: #f0d0d1;
-  --wafer-red-deep: #b86a6d;
+  --wafer-red: #ff5c6c;
+  --wafer-red-soft: #ffc2c8;
+  --wafer-red-deep: #e83d50;
 
-  --wafer-green: #7faf92;
-  --wafer-green-soft: #cfe3d6;
-  --wafer-green-deep: #5f8f74;
+  --wafer-green: #3ecf7a;
+  --wafer-green-soft: #b8f0cf;
+  --wafer-green-deep: #22b05c;
 
-  --wafer-blue: #7fa3c2;
-  --wafer-blue-soft: #d0e0ec;
-  --wafer-blue-deep: #5e84a6;
+  --wafer-blue: #4b9fff;
+  --wafer-blue-soft: #b9dbff;
+  --wafer-blue-deep: #2f7fe0;
 
   /* ── Neutrals ── */
   --wafer-ink: #2a3340;
@@ -40,30 +40,30 @@
   /* ── Atmosphere washes ── */
   --wafer-wash: linear-gradient(
     155deg,
-    #fbf6e8 0%,
-    #f6ebea 28%,
-    #eef4ef 55%,
-    #eaf0f6 78%,
+    #fff6d6 0%,
+    #ffe8eb 28%,
+    #e8f9ef 55%,
+    #e3f0ff 78%,
     #f7f5f1 100%
   );
   --wafer-wash-hero: radial-gradient(
       900px 520px at 12% 18%,
-      rgba(226, 200, 106, 0.35),
+      rgba(255, 210, 58, 0.42),
       transparent 60%
     ),
     radial-gradient(
       700px 480px at 88% 12%,
-      rgba(127, 163, 194, 0.28),
+      rgba(75, 159, 255, 0.34),
       transparent 55%
     ),
     radial-gradient(
       640px 420px at 70% 88%,
-      rgba(127, 175, 146, 0.22),
+      rgba(62, 207, 122, 0.28),
       transparent 55%
     ),
     radial-gradient(
       520px 360px at 18% 85%,
-      rgba(212, 136, 138, 0.18),
+      rgba(255, 92, 108, 0.26),
       transparent 50%
     ),
     var(--wafer-paper);

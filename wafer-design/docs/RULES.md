@@ -10,10 +10,10 @@
 
 | Token | Role | Feel |
 |---|---|---|
-| `--wafer-yellow` | energy, highlight, brand warmth | soft lemon-gold |
-| `--wafer-red` | accent, emphasis, heart | dusty rose-coral |
-| `--wafer-green` | success, calm pop, growth | muted mint-sage |
-| `--wafer-blue` | trust, link, cool balance | washed sky |
+| `--wafer-yellow` | energy, highlight, brand warmth | fresh lemon |
+| `--wafer-red` | accent, emphasis, heart | vivid coral-red |
+| `--wafer-green` | success, calm pop, growth | bright mint |
+| `--wafer-blue` | trust, link, cool balance | clear sky |
 
 ### Neutrals
 
@@ -28,8 +28,8 @@
 
 1. ใช้สีหลักอย่างน้อย 2 สีต่อหน้า + neutrals
 2. พื้นหลังต้องมี atmosphere (gradient / soft wash) — ห้าม flat ขาวล้วนทั้งหน้า
-3. สีตุ่น+ซีด = เทสต์ · ถ้าดูหมองให้เพิ่มความสว่าง ไม่เพิ่มความฉูด
-4. ข้อความบนสี: contrast อ่านง่ายเสมอ (ห้ามดูแพงแต่读ไม่รู้เรื่อง)
+3. สีสดมีชีวิต = ลายเซ็น · ถ้าจางเกินให้ดัน chroma ขึ้น · ห้าม neon จ้าตา
+4. ข้อความบนสี: contrast อ่านง่ายเสมอ
 5. ห้ามม่วงเป็นสีหลัก · ห้าม neon · ห้าม terracotta-cream default
 
 ---
@@ -163,7 +163,7 @@
 
 ## 9. Pre-ship checklist
 
-- [ ] รู้ทันทีว่าเป็น wafer's design (สี + ความนุ่ม + geo/line)
+- [ ] รู้ทันทีว่าเป็น wafer's design (YRGB สด + ความนุ่ม + geo/line)
 - [ ] ดูแพงและสดใสพร้อมกัน
 - [ ] อ่านง่ายทั้ง headline และ body
 - [ ] ตกแต่งมี แต่ไม่รก
