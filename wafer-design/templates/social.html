@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wafer's design — Social templates</title>
+    <link rel="stylesheet" href="/src/styles/wafer.css" />
+  </head>
+  <body class="w-page">
+    <div class="w-shell">
+      <nav class="w-nav">
+        <a class="w-brand-mark w-brand" href="/" style="text-decoration: none">
+          <span class="w-brand-dot" aria-hidden="true"></span>
+          wafer social
+        </a>
+        <ul class="w-nav__links">
+          <li><a href="landing.html">landing</a></li>
+          <li><a href="app-shell.html">app</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="w-section w-shell">
+      <div class="w-stack-lg" style="margin-bottom: 2rem; max-width: 28ch">
+        <p class="w-label">social canvases</p>
+        <h1 class="w-title">อ่านใน 1 วินาที · ลายเซ็นชัด</h1>
+        <p class="w-body-sm">ใช้เป็นแม่แบบโพสต์ / สตอรี่ / ปก — สี 2–3 โทน + geo accent</p>
+      </div>
+
+      <div style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))">
+        <article class="w-social-canvas" aria-label="Quote post">
+          <div class="w-ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <span class="w-geo w-geo--circle w-geo--fill-yellow w-float" style="top: 18%; right: 14%; --geo-size: 64px"></span>
+          <span class="w-geo w-geo--ring w-geo--fill-blue w-float-slow" style="bottom: 28%; left: 12%; --geo-size: 72px"></span>
+          <h2 class="w-title">soft today, sharp taste</h2>
+          <p class="w-label">wafer's design</p>
+        </article>
+
+        <article class="w-social-canvas" aria-label="Announcement post">
+          <span class="w-geo w-geo--squircle w-geo--fill-red w-float" style="top: 16%; left: 14%; --geo-size: 56px"></span>
+          <span class="w-geo w-geo--capsule w-geo--fill-green w-float-delay" style="top: 22%; right: 12%; --geo-w: 90px; --geo-h: 28px"></span>
+          <div class="w-stroke w-stroke--wave w-stroke--yellow" style="bottom: 34%; right: 10%">
+            <svg viewBox="0 0 220 48" fill="none">
+              <path d="M4 24 C28 4, 48 44, 72 24 S116 4, 140 24 S188 44, 216 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <p class="w-label">new drop</p>
+          <h2 class="w-title">future kid color set</h2>
+          <p class="w-body-sm">Y · R · G · B muted pop</p>
+        </article>
+
+        <article class="w-social-canvas" aria-label="Portrait-friendly post">
+          <span class="w-geo w-geo--soft-tri w-geo--solid-blue w-float-slow" style="top: 20%; right: 18%; --geo-size: 48px; opacity: 0.75"></span>
+          <span class="w-geo w-geo--dot w-geo--solid-red w-float" style="top: 48%; left: 16%"></span>
+          <span class="w-geo w-geo--circle w-geo--fill-green w-float-delay" style="bottom: 22%; right: 16%; --geo-size: 70px"></span>
+          <div>
+            <p class="w-label">portfolio tip</p>
+            <h2 class="w-title">อย่าโล่งเปล่า อย่ารก</h2>
+          </div>
+          <p class="w-body-sm">playful order > empty luxury</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="w-footer">
+      <div class="w-shell w-footer__row">
+        <span class="w-brand">wafer's design</span>
+        <a href="/">style guide</a>
+      </div>
+    </footer>
+  </body>
+</html>

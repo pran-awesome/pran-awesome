@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wafer's design — living style guide</title>
+    <meta
+      name="description"
+      content="Personal design system: muted-bright YRGB, soft modern type, geometric gimmicks."
+    />
+    <link rel="stylesheet" href="/src/styles/wafer.css" />
+  </head>
+  <body class="w-page">
+    <header class="w-atmosphere">
+      <div class="w-shell">
+        <nav class="w-nav" aria-label="Primary">
+          <a class="w-brand-mark w-brand" href="/" style="text-decoration: none">
+            <span class="w-brand-dot" aria-hidden="true"></span>
+            wafer's design
+          </a>
+          <ul class="w-nav__links">
+            <li><a href="#tokens">tokens</a></li>
+            <li><a href="#type">type</a></li>
+            <li><a href="#decor">decor</a></li>
+            <li><a href="#ui">ui</a></li>
+            <li><a href="templates/landing.html">templates</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="w-hero w-shell">
+        <div class="w-hero__decor" aria-hidden="true">
+          <span
+            class="w-geo w-geo--circle w-geo--fill-yellow w-float"
+            style="top: 12%; right: 18%; --geo-size: 96px"
+          ></span>
+          <span
+            class="w-geo w-geo--ring w-geo--fill-blue w-float-slow"
+            style="top: 22%; right: 8%; --geo-size: 120px"
+          ></span>
+          <span
+            class="w-geo w-geo--squircle w-geo--fill-red w-float-delay"
+            style="bottom: 22%; right: 28%; --geo-size: 70px; --geo-rot: -8deg"
+          ></span>
+          <span
+            class="w-geo w-geo--capsule w-geo--fill-green w-float"
+            style="bottom: 30%; right: 10%; --geo-w: 130px; --geo-h: 34px"
+          ></span>
+          <span
+            class="w-geo w-geo--soft-tri w-geo--solid-blue w-float-delay"
+            style="top: 48%; right: 40%; --geo-size: 48px; opacity: 0.55"
+          ></span>
+          <span
+            class="w-geo w-geo--dot w-geo--solid-red w-float-slow"
+            style="top: 18%; right: 42%; --geo-size: 14px"
+          ></span>
+          <div class="w-stroke w-stroke--arc w-stroke--yellow" style="top: 58%; right: 16%">
+            <svg viewBox="0 0 160 80" fill="none" aria-hidden="true">
+              <path
+                d="M8 62 C40 8, 120 8, 152 62"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="w-stroke w-stroke--wave w-stroke--green" style="bottom: 16%; right: 36%">
+            <svg viewBox="0 0 220 48" fill="none" aria-hidden="true">
+              <path
+                d="M4 24 C28 4, 48 44, 72 24 S116 4, 140 24 S188 44, 216 24"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="w-hero__content w-stack-lg">
+          <div class="w-ribbon w-ribbon--lg" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <p class="w-label">personal design system</p>
+          <h1 class="w-display">wafer's design</h1>
+          <p class="w-body">
+            เด็กจากโลกอนาคต · เทสต์แพง · สดใสแบบตุ่น ๆ — พิมพ์เขียวสำหรับพอร์ต โซเชียล เว็บ และแอพ
+          </p>
+          <div class="w-btn-row">
+            <a class="w-btn w-btn--primary" href="#tokens">เปิด tokens</a>
+            <a class="w-btn w-btn--soft" href="templates/landing.html">ดู templates</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="manifesto" class="w-section w-shell">
+        <div class="w-doc-grid w-doc-grid--2">
+          <div class="w-stack-lg">
+            <p class="w-label">manifesto</p>
+            <h2 class="w-title">ดูแพงเพราะระเบียบ ดูเด็กเพราะความนุ่ม</h2>
+            <p class="w-body">
+              Soft signal · Muted pop · Playful order · Quiet gimmick — โครงชัดแบบ Apple
+              แต่มีลายเซ็น geometric + เส้นเป็นกิมมิคของเรา
+            </p>
+          </div>
+          <div class="w-stack">
+            <p class="w-body-sm"><strong>ใช้เมื่อ:</strong> personal brand, portfolio, freelance, social, soft product UI</p>
+            <p class="w-body-sm"><strong>ห้าม:</strong> corporate แห้ง, AI purple glow, โล่งเปล่า, รกไร้ระบบ, เด็กนิทาน</p>
+            <p class="w-body-sm">
+              อ่านเต็ม:
+              <a href="/docs/MANIFESTO.md">MANIFESTO.md</a> ·
+              <a href="/docs/RULES.md">RULES.md</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tokens" class="w-section w-section--tight w-shell">
+        <div class="w-doc-block">
+          <div class="w-stack-lg">
+            <p class="w-label">color tokens</p>
+            <h2 class="w-title-sm">Muted-bright Y · R · G · B</h2>
+            <p class="w-body-sm">ตุ่น + ซีดนิด = เทสต์ดี ไม่หมอง ไม่ฉูด</p>
+            <div class="w-swatches" aria-label="Core palette">
+              <div class="w-swatch" style="background: var(--wafer-yellow)">
+                <span>yellow</span>
+              </div>
+              <div class="w-swatch" style="background: var(--wafer-red)">
+                <span>red</span>
+              </div>
+              <div class="w-swatch" style="background: var(--wafer-green)">
+                <span>green</span>
+              </div>
+              <div class="w-swatch" style="background: var(--wafer-blue)">
+                <span>blue</span>
+              </div>
+            </div>
+            <div class="w-swatches" aria-label="Soft palette" style="margin-top: 0.75rem">
+              <div class="w-swatch" style="background: var(--wafer-yellow-soft)">
+                <span>yellow soft</span>
+              </div>
+              <div class="w-swatch" style="background: var(--wafer-red-soft)">
+                <span>red soft</span>
+              </div>
+              <div class="w-swatch" style="background: var(--wafer-green-soft)">
+                <span>green soft</span>
+              </div>
+              <div class="w-swatch" style="background: var(--wafer-blue-soft)">
+                <span>blue soft</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="type" class="w-section w-section--tight w-shell">
+        <div class="w-doc-block">
+          <p class="w-label">typography</p>
+          <div class="w-stack-lg" style="margin-top: 1rem">
+            <h2 class="w-display" style="font-size: clamp(2.4rem, 6vw, 4rem)">กลม นุ่ม น่ารัก ทันสมัย</h2>
+            <h3 class="w-title">Title — อ่านง่าย มีลมหายใจ</h3>
+            <p class="w-body">
+              Body ใช้ Nunito น้ำหนักกลาง อ่านสบายทั้งไทยและอังกฤษ ไม่แข็ง ไม่ดูองค์กร
+            </p>
+            <p class="w-label">label · lowercase · soft meta</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="decor" class="w-section w-section--tight w-shell">
+        <div class="w-doc-block">
+          <div class="w-stack-lg">
+            <p class="w-label">decorations</p>
+            <h2 class="w-title-sm">เรขาคณิตหลายแบบ + เส้น</h2>
+            <p class="w-body-sm">จัดระเบียบ มีกิมมิค ลอยเบา ๆ — ไม่ว่างเปล่า ไม่รก</p>
+            <div class="w-demo-frame">
+              <span class="w-geo w-geo--circle w-geo--fill-yellow w-float" style="top: 18%; left: 12%; --geo-size: 78px"></span>
+              <span class="w-geo w-geo--ring w-geo--fill-blue w-float-slow" style="top: 20%; left: 28%; --geo-size: 96px"></span>
+              <span class="w-geo w-geo--squircle w-geo--fill-red w-float-delay" style="top: 42%; left: 48%; --geo-size: 62px"></span>
+              <span class="w-geo w-geo--capsule w-geo--fill-green w-float" style="top: 58%; left: 18%; --geo-w: 120px"></span>
+              <span class="w-geo w-geo--soft-tri w-geo--solid-yellow w-float-slow" style="top: 28%; left: 68%; --geo-size: 52px; opacity: 0.7"></span>
+              <span class="w-geo w-geo--dot w-geo--solid-red" style="top: 70%; left: 62%; --geo-size: 12px"></span>
+              <div class="w-stroke w-stroke--arc w-stroke--red" style="top: 55%; left: 55%">
+                <svg viewBox="0 0 160 80" fill="none">
+                  <path d="M8 62 C40 8, 120 8, 152 62" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div style="position: relative; z-index: 2; margin-top: 7rem">
+                <div class="w-ribbon" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <p class="w-body-sm" style="margin-top: 1rem; max-width: 28ch">
+                  ใช้ `.w-geo`, `.w-stroke`, `.w-orbit`, `.w-ribbon` + `.w-float`
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ui" class="w-section w-section--tight w-shell">
+        <div class="w-doc-block">
+          <div class="w-stack-lg">
+            <p class="w-label">ui components</p>
+            <h2 class="w-title-sm">มุมมนปานกลาง · กิมมิคเงียบ</h2>
+
+            <div class="w-btn-row">
+              <button class="w-btn w-btn--primary" type="button">Primary</button>
+              <button class="w-btn w-btn--yellow" type="button">Yellow</button>
+              <button class="w-btn w-btn--soft" type="button">Soft</button>
+              <button class="w-btn w-btn--ghost" type="button">Ghost</button>
+            </div>
+
+            <div class="w-btn-row">
+              <span class="w-chip w-chip--yellow">yellow</span>
+              <span class="w-chip w-chip--red">red</span>
+              <span class="w-chip w-chip--green">green</span>
+              <span class="w-chip w-chip--blue">blue</span>
+            </div>
+
+            <form class="w-surface" style="max-width: 420px" onsubmit="return false">
+              <div class="w-stack">
+                <div class="w-field">
+                  <label for="name">ชื่อโปรเจกต์</label>
+                  <input class="w-input" id="name" name="name" placeholder="เช่น soft portfolio" />
+                </div>
+                <div class="w-field">
+                  <label for="note">โน้ตสั้น ๆ</label>
+                  <textarea class="w-textarea" id="note" name="note" placeholder="โทน future kid, ไม่ทางการ"></textarea>
+                </div>
+                <button class="w-btn w-btn--yellow" type="submit">บันทึกแบบ wafer</button>
+              </div>
+            </form>
+
+            <div class="w-feature-list w-feature-list--3">
+              <article class="w-feature">
+                <div class="w-feature__icon w-feature__icon--y">Y</div>
+                <h3 class="w-title-sm" style="font-size: 1.25rem">Soft signal</h3>
+                <p class="w-body-sm">ตัวอักษรกลม นุ่ม เป็นมิตร</p>
+              </article>
+              <article class="w-feature">
+                <div class="w-feature__icon w-feature__icon--r">R</div>
+                <h3 class="w-title-sm" style="font-size: 1.25rem">Playful order</h3>
+                <p class="w-body-sm">เดคอร์มีระบบ ไม่รก</p>
+              </article>
+              <article class="w-feature">
+                <div class="w-feature__icon w-feature__icon--b">B</div>
+                <h3 class="w-title-sm" style="font-size: 1.25rem">Quiet gimmick</h3>
+                <p class="w-body-sm">ลอยเบา ๆ พอมีชีวิต</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-section w-shell">
+        <div class="w-doc-block">
+          <div class="w-stack-lg">
+            <p class="w-label">templates</p>
+            <h2 class="w-title-sm">พร้อมใช้ในงานจริง</h2>
+            <div class="w-btn-row">
+              <a class="w-btn w-btn--soft" href="templates/landing.html">Landing</a>
+              <a class="w-btn w-btn--soft" href="templates/portfolio.html">Portfolio</a>
+              <a class="w-btn w-btn--soft" href="templates/social.html">Social</a>
+              <a class="w-btn w-btn--soft" href="templates/app-shell.html">App shell</a>
+            </div>
+            <pre class="w-code">import '/src/styles/wafer.css'
+
+// Decor example
+&lt;span class="w-geo w-geo--circle w-geo--fill-yellow w-float"&gt;&lt;/span&gt;
+&lt;div class="w-ribbon"&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;</pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-footer">
+      <div class="w-shell w-footer__row">
+        <div class="w-brand-mark w-brand">
+          <span class="w-brand-dot" aria-hidden="true"></span>
+          wafer's design
+        </div>
+        <p class="w-body-sm">future kid · soft luxury · playful order</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
