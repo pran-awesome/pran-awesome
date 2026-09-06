@@ -11,6 +11,7 @@ export default defineConfig({
         portfolio: resolve(__dirname, 'templates/portfolio.html'),
         social: resolve(__dirname, 'templates/social.html'),
         app: resolve(__dirname, 'templates/app-shell.html'),
+        linkbio: resolve(__dirname, 'templates/link-bio.html'),
       },
     },
   },

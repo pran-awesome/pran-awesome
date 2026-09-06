@@ -51,6 +51,21 @@
   margin: 0;
 }
 
+.w-label--caps {
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-size: var(--text-xs);
+}
+
+.w-quote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--wafer-ink);
+  margin: 0;
+}
+
 .w-brand {
   font-family: var(--font-display);
   font-weight: 800;

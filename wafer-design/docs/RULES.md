@@ -21,16 +21,25 @@
 |---|---|
 | `--wafer-ink` | primary text |
 | `--wafer-ink-soft` | secondary text |
-| `--wafer-paper` | base surface |
+| `--wafer-paper` / `--wafer-cream` | cream surfaces (`#fdfcf0`) |
+| `--wafer-stage` | charcoal stage for link-bio / dark frames |
 | `--wafer-mist` | subtle panels / washes |
+
+### Signature shadows
+
+| Token | Use |
+|---|---|
+| `--shadow-wafer-y/r/g/b` | hard offset color shadows (no blur) |
+| `.w-slab` | cream card with wafer shadow |
 
 ### Rules
 
 1. ใช้สีหลักอย่างน้อย 2 สีต่อหน้า + neutrals
-2. พื้นหลังต้องมี atmosphere (gradient / soft wash) — ห้าม flat ขาวล้วนทั้งหน้า
+2. พื้นหลังต้องมี atmosphere (gradient / soft wash / stage) — ห้าม flat ขาวล้วนทั้งหน้า
 3. สีสดมีชีวิต = ลายเซ็น · ถ้าจางเกินให้ดัน chroma ขึ้น · ห้าม neon จ้าตา
 4. ข้อความบนสี: contrast อ่านง่ายเสมอ
-5. ห้ามม่วงเป็นสีหลัก · ห้าม neon · ห้าม terracotta-cream default
+5. ห้ามม่วงเป็นสีหลัก · ห้าม neon · ห้ามเงาเทา blur แทน wafer shadow ในชิ้นลายเซ็น
+6. Reference: [ilovewafer.com](https://ilovewafer.com) — borrow language, don't clone content
 
 ---
 
